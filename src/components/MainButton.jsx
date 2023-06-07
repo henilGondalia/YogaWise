@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function MainButton({ color, bg, cN, arrowColor, hover, text, goTo }) {
   const goTop = () => {
-    // window.scrollTo({
-    //   top: 0,
-    // });
+    window.scrollTo({
+      top: 0,
+    });
   };
   return (
     <Link

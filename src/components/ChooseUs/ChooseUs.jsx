@@ -20,9 +20,9 @@ function ChooseUs() {
             <img
               src={PlayImg}
               alt="play_img"
-              className="absolute w-[2.4rem] top-[42%] left-[44.2%] z-10 cursor-pointer min450:left-[47%] min450:top-[44%] "
+              className="absolute w-[2.4rem] top-[42%] left-[44.2%] z-10 cursor-pointer min450:left-[47%] min450:top-[44%] hidden"
             />
-            <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[38.7%] left-[39.9%]"></span>
+            <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[38.7%] left-[39.9%] hidden"></span>
           </div>
 
           <div className="relative w-[50%] md1000:flex md1000:flex-col md1000:items-center md1000:text-center md1000:w-[85%]">
@@ -38,7 +38,10 @@ function ChooseUs() {
               Your pace. Your space. Your practice.
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
-              At <b>YogaWise</b>, You can experience the benefits of a virtual studio at home and on-the-go with any device. You can even download your favorite classes so they’re always available when you want them.
+              At <b>YogaWise</b>, You can experience the benefits of a virtual
+              studio at home and on-the-go with any device. You can even
+              download your favorite classes so they’re always available when
+              you want them.
             </p>
 
             <div className="grid grid-cols-1 grid-rows-4 gap-14 max-w-[44rem] mt-14 min450:flex min450:flex-col">
@@ -49,7 +52,11 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[300px]">
-                  Article<br/><small className="text-white text-[12px] font-normal">On wellbeing, anatomy, philosophy and more</small>
+                  Article
+                  <br />
+                  <small className="text-white text-[12px] font-normal">
+                    On wellbeing, anatomy, philosophy and more
+                  </small>
                 </p>
               </div>
 
@@ -60,8 +67,10 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[300px]">
-                Yoga Poses <br/>
-                <small className="text-white text-[12px] font-normal">Tips on how to make poses work for you</small>
+                  Yoga Poses <br />
+                  <small className="text-white text-[12px] font-normal">
+                    Tips on how to make poses work for you
+                  </small>
                 </p>
               </div>
 
@@ -84,10 +93,11 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[300px]">
-                  Community <br/>
-                  <small className="text-white text-[12px] font-normal">inspiration for your next practice</small>
+                  Community <br />
+                  <small className="text-white text-[12px] font-normal">
+                    inspiration for your next practice
+                  </small>
                 </p>
-                
               </div>
               <MainButton
                 color={`!text-white`}

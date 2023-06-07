@@ -10,9 +10,10 @@ function Login() {
   const [error, setError] = useState("");
 
   const goTop = () => {
-    // window.scrollTo({
-    //   top: 0,
-    // });
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
   };
 
   const handleSubmit = async (e) => {

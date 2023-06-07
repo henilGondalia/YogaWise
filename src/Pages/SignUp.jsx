@@ -9,9 +9,10 @@ function Signup() {
   const navigate = useNavigate();
 
   const goTop = () => {
-    // window.scrollTo({
-    //   top: 0,
-    // });
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
   };
 
   const handleSubmit = async (e) => {

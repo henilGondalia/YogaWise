@@ -31,16 +31,17 @@ function About() {
               <img
                 src={TitleRed}
                 alt="text_bg"
-                className="w-[21rem] absolute top-[120px] min450:top-[84px] min375:top-[68px]"
+                className="w-[21rem] absolute top-[120px] min450:top-[108px] min375:top-[68px]"
               />
 
               <h2 className="text-[3.6rem] max-w-[53rem] font-bold mb-4">
                 Your Movement & Mindfulness Bestie
               </h2>
               <p className="text-[#646464] font-medium text-[15px] max-w-[50rem] ">
-                Our instructors bring a wealth of expertise in various yoga styles, 
-                ensuring that you receive proper guidance and personalized 
-                attention throughout your practice. Build physical and mental toughness through fun.
+                Our instructors bring a wealth of expertise in various yoga
+                styles, ensuring that you receive proper guidance and
+                personalized attention throughout your practice. Build physical
+                and mental toughness through fun.
               </p>
               <MainButton
                 color={`!text-white`}
@@ -65,11 +66,19 @@ function About() {
                   alt="girl_maditating"
                   className="girl-maditating"
                 />
-                
-                <img src={GirlRedRotatedBg} alt="bg-red" className="!top-[58%] girl-bg " />
+
+                <img
+                  src={GirlRedRotatedBg}
+                  alt="bg-red"
+                  className="!top-[58%] girl-bg "
+                />
                 <img src={GirlWind} alt="bg-wind" className="girl-wind" />
               </span>
-              <img src={GirlRedBg} alt="bg-red" className="girl-bg girl-bg-90" />
+              <img
+                src={GirlRedBg}
+                alt="bg-red"
+                className="girl-bg girl-bg-90"
+              />
               <img src={MeditateText} alt="bg-text" className="girl-text" />
             </div>
           </div>
@@ -80,8 +89,11 @@ function About() {
                 <img src={History} alt="target_img" className="w-[9rem]" />
                 <h2 className="text-[36px] font-bold mt-3">History</h2>
                 <p className="text-[16px] font-medium text-[#646464] mt-5">
-                history of yoga dates back thousands of years and has evolved through different periods and cultures. 
-                The origins of yoga can be traced to ancient India, where it developed as a comprehensive system for physical, mental, and spiritual well-being. 
+                  history of yoga dates back thousands of years and has evolved
+                  through different periods and cultures. The origins of yoga
+                  can be traced to ancient India, where it developed as a
+                  comprehensive system for physical, mental, and spiritual
+                  well-being.
                 </p>
               </div>
               {/*  */}
@@ -105,10 +117,11 @@ function About() {
                 <img src={Target} alt="target_img" className="w-[9rem]" />
                 <h2 className="text-[36px] font-bold mt-3">Our manifesto</h2>
                 <p className="text-[16px] font-medium text-[#646464] mt-5">
-                VISION – A world that comes together to heal.
-                MISSION – To connect people through self-care.
-                OUR WHY – We connect people through self-care so that, together, we can heal ourselves and our planet.
-                                </p>
+                  VISION – A world that comes together to heal. MISSION – To
+                  connect people through self-care. OUR WHY – We connect people
+                  through self-care so that, together, we can heal ourselves and
+                  our planet.
+                </p>
               </div>
             </div>
           </div>

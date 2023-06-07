@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function NavList() {
   const goTop = () => {
-    // window.scrollTo({
-    //   top: 0,
-    //   behavior: "none",
-    // });
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
   };
   return (
     <>

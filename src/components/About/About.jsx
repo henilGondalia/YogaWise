@@ -40,7 +40,8 @@ function About() {
                 Your Movement & Mindfulness Bestie
               </h2>
               <p className="text-[16px] text-[#646464] font-medium ">
-                Build physical and mental toughness through fun, engaging circuits that help you tackle your life on and off the mat.
+                Build physical and mental toughness through fun, engaging
+                circuits that help you tackle your life on and off the mat.
               </p>
               {/* about text icons */}
               <div className="flex mt-12 mb-[7rem] gap-[2px] min620:flex-col ">
@@ -102,11 +103,15 @@ function About() {
                   alt="girl_maditating"
                   className="girl-maditating"
                 />
-                
+
                 <img src={GirlRedRotatedBg} alt="bg-red" className="girl-bg" />
                 <img src={GirlWind} alt="bg-wind" className="girl-wind" />
               </span>
-              <img src={GirlRedBg} alt="bg-red" className="girl-bg girl-bg-90" />
+              <img
+                src={GirlRedBg}
+                alt="bg-red"
+                className="girl-bg girl-bg-90"
+              />
               <img src={MeditateText} alt="bg-text" className="girl-text" />
             </div>
           </div>

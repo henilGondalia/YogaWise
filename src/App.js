@@ -9,6 +9,7 @@ import Classes from "./Pages/Classes";
 import Price from "./Pages/Price";
 import Blog from "./Pages/Blog";
 import About from "./Pages/About";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
           <Route path="pricing" element={<Price />} />
           <Route path="classes" element={<Classes />} />
           <Route path="login" element={<Login />} />
-          <Route path="signup" element={<SignUp />} />    
+          <Route path="signup" element={<SignUp />} />  
+          <Route path="*" element={<NotFound/>} /> {/* This route matches all unknown paths */}
+  
         </Routes> 
     </>
   );
