@@ -83,11 +83,11 @@ function Login() {
                 Sign Up
               </Link>
             </div>
-            <p className="text-[#ffffffbc] text-[1.4rem] mt-3">
+            {/* <p className="text-[#ffffffbc] text-[1.4rem] mt-3">
               <span className="text-[#ff0336]">Test Account</span> -
               demo@yogawise.com <span className="text-[#ff0336]"> / </span>
               testpassword123
-            </p>
+            </p> */}
           </form>
         </div>
         <Footer />
