@@ -14,7 +14,9 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a href="/">Home</a>
+          <Link onClick={goTop} to="/">
+            Home
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}

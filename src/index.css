@@ -22,6 +22,28 @@ body {
 #root {
   overflow-x: hidden;
 }
+/* loader css -------------------------------*/
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+.loader img {
+  transform: translate(-50%, -100%);
+    top: 40%;
+    position: absolute;
+    left: 50%;
+}
+
+.loader div{
+  width: max-content;
+  color: #ff0336;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 5%;
+}
 
 /* css for all pages */
 
